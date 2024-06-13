@@ -1,0 +1,3 @@
+assembyai
+tkinter
+requests
