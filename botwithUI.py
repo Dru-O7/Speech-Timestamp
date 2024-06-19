@@ -46,7 +46,7 @@ root.title("Audio Transcription and Word Search")
 tk.Label(root, text="API Key:").grid(row=0, column=0, padx=10, pady=10)
 api_key_entry = tk.Entry(root, width=50)
 api_key_entry.grid(row=0, column=1, padx=10, pady=10)
-api_key_entry.insert(0, "0703b6d8e89d434cabacd13c526d2480")
+api_key_entry.insert(0, "Enter Your API KEY Here")
 
 tk.Label(root, text="Audio URL:").grid(row=1, column=0, padx=10, pady=10)
 audio_url_text = tk.Text(root, width=50, height=5)

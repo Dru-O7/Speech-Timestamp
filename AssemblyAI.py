@@ -1,6 +1,6 @@
 import assemblyai as aai
 
-aai.settings.api_key = "0703b6d8e89d434cabacd13c526d2480"
+aai.settings.api_key = "Enter Your API KEY Here"
 audio_url = "test-audio.mp3"
 transcriber = aai.Transcriber()
 transcript = transcriber.transcribe(audio_url)
