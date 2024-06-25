@@ -1,4 +1,6 @@
 import joblib
+from nltk.tokenize import word_tokenize
+import nltk
 
 classifier = joblib.load('svm_classifier.joblib')
 vectorizer = joblib.load('tfidf_vectorizer.joblib')
