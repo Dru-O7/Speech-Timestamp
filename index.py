@@ -5,7 +5,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import assemblyai as aai
 
 # Initialize AssemblyAI API key
-aai.settings.api_key = "0703b6d8e89d434cabacd13c526d2480"
+aai.settings.api_key = ""
 
 def transcribe_audio(file):
     config = aai.TranscriptionConfig(speaker_labels=True, language_code='hi')
