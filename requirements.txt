@@ -1,3 +1,4 @@
-assembyai
-tkinter
-requests
+streamlit
+deep_translator
+vaderSentiment
+assemblyai
