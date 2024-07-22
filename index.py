@@ -1,5 +1,4 @@
 import streamlit as st
-import re
 from deep_translator import GoogleTranslator
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import assemblyai as aai
